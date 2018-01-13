@@ -1,0 +1,1 @@
+This file should be placed in your Editor Folder to ensure it doesn't compile with the rest of your game.
