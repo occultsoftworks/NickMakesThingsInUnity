@@ -19,7 +19,7 @@ namespace Occult.UnityHelper.CustomScripts{
 			System.Environment.NewLine +
 			"}";
 
-		[MenuItem("Assets/Create Script Generation", false, 0)]
+		[MenuItem("Assets/Script Generation", false, 0)]
 		public static void CreateCustomScript(MenuCommand cmd) {
 			CreateScriptWindow window = new CreateScriptWindow(delegate(string className, ClassTypes classType){
 				string basePath = "";
